@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    font-family: 'Original Surfer', cursive;
+    background-color: #ced4c9;
+}
+
+.background {
+    background-color: #a3b18a;
+}
+
+
+
+.visit {
+    background-image: url("images/city0.jpg");
+    background-size: cover;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    height: 343px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    height: 420px;
+
+}
+
+
+.visit h3 {
+    font-size: 22px;
+}
+
+.text-bg h1 {
+    background-color: #606c38;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+.text-bg h3 {
+    background-color: #283618;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#underline {
+    text-decoration: underline;
+}
+    
+.baz {
+    color: #283618;
+}
+
+.card {
+    font-size: 20px;   
+}
+
+.card-title {
+    text-align: center;
+    color: #283618;
+    text-shadow: 1px 1px 3px whitesmoke;
+
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    transition: transform 0.5s ease, border-radius 0.3s ease;
+    border: 4px solid #5F6B36;
+
+}
+   
+.card img:hover {
+    transform: scale(3.2);
+    border-radius: 0;
+    border-radius: 5%;
+}
+
+.container  {
+    margin-top: 80px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    color: #F1FCEE;
+ 
+    padding-bottom: 40px;
+}
+
+.container h3 {
+    color: #283618;
+}
+
+.container p {
+    color: #344e41;
+}
+
+.personal-card {
+    width: 550px;
+    margin: 5% auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: #000000;
+    border-bottom: 6px solid #80CFA9;
+    border-radius: 20px;
+    box-shadow: 5px 4px 2px #aed9e0;
+    background-color: #88C64E;
+}
+
+.personal-img {
+    border: 5px solid #283618;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #283618;
+
+
+}
+
